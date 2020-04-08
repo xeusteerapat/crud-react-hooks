@@ -3,7 +3,6 @@ import useForm from '../hooks/useForm';
 
 const EditUserForm = ({ currentUser, setEditing, updateUser }) => {
   const [user, setUser] = useState(currentUser);
-
   const { values, handleChange } = useForm(user, updateUser);
 
   const handleSubmit = e => {

@@ -10,7 +10,7 @@ const useForm = (initialFormState, callback) => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    callback(values, null);
+    callback(values);
     setValues(initialFormState);
   };
 
