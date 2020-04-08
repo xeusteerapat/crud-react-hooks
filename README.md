@@ -1,3 +1,13 @@
+# CRUD with React Hooks
+
+I took this tutorial from [Build a CRUD App in React with Hooks](https://www.taniarascia.com/crud-app-in-react-with-hooks/) but I did refactor using custom hooks `useForm`
+
+## Todo
+
+- Figure out how to reuse `handleSubmit` in `EditUserForm`
+- Refactor seperate functions.
+- Add more form validation.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
